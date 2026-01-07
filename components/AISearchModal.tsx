@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { X, Sparkles, Send, Loader2 } from 'lucide-react';
-import { getAIRecommendations } from '../services/geminiService';
+import { getAIRecommendations } from '../geminiService';
 import { AIRecommendation, Movie } from '../types';
 import MovieCard from './MovieCard';
 

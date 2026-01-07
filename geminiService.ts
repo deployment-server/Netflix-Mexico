@@ -1,5 +1,5 @@
 import { GoogleGenAI, Type } from "@google/genai";
-import { AIRecommendation } from "../types";
+import { AIRecommendation } from "./types";
 
 // Initialize using process.env.API_KEY directly as per strict guidelines
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
